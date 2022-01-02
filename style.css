@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Lobster&display=swap');
+#heading {
+    font-family: 'Licorice', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #8a3d3d;
+    background-color: rgb(91, 223, 161);
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 5px rgb(216, 108, 58);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: rgb(161, 24, 202);
+}
+
+.cat-container {
+    display: flex;
+    flex-flow: wrap column;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(216, 108, 58);
+}
+
+.cat-data {
+    align-items: center;
+}
+
+.details {
+    width: 300px;
+    padding: 50px;
+    justify-content: center;
+    font-size: 100px;
+    background: rgb(255, 166, 0);
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+
+.main-div {
+    background-color: rgb(199, 143, 212);
+}
